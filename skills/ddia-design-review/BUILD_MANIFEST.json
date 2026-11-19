@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "38c5e4201fc8e68beb1e17a8af409d9fce1aafe212ed9fd8286bf00c23334e54",
+    "references/capabilities/batch.md": "69eef7c50e480b94d1e523ead738277f38eb9cf7720c9dd50b137d28e85dc60d",
+    "references/capabilities/consensus.md": "b11661621c511336f84c9aae48c163ead0775de68578814b8b99f979ebe63604",
+    "references/capabilities/end-to-end.md": "89485f206a2088f682fd199eba5c1aff61bcf15cd1d949f93ace147e45d97ec4",
+    "references/capabilities/evolution.md": "8a0d76feee1f37bbadef5efb38c625510ec7ccb00de1e01f4c9a05fd81a472bb",
+    "references/capabilities/faults.md": "ab9bd6aa40597af078cfe2eeb0440f2cd0272bdea8b74c26a643cf5b1994d86a",
+    "references/capabilities/model.md": "8f99c8f97e3453900955da4e15da865f9a2e10f64ff4286054489083cd366ff6",
+    "references/capabilities/partition.md": "c764c694ce3686635b9412a9716d3b4efac1a0288edd27c1d3eea09eba7cd4f7",
+    "references/capabilities/replication.md": "4edde9e05b29d5064a6460360dcdb8f3c3a05c87433401ce4281cdbc41582bfb",
+    "references/capabilities/storage.md": "bd7a7098fad6551425fca0753c025d39ecfc76e07caf7d1efa4648fd60c4f7a3",
+    "references/capabilities/stream.md": "8acac3114337afc133c5b4446295a71e0bff5715fafc55318c11a05679192701",
+    "references/capabilities/transactions.md": "7015f93bea9f3c508787a8f4212468293732fb5c2b4a877ceac597626877b3d0",
+    "references/capabilities/workload.md": "53d5216d059aba519d9be8ae201424d5630a1f7239c4433d5cb85ebca79271d5",
+    "references/capability-index.md": "eac18123e8527a57718ba132fcf033cd25d82d2f4360d225757d3dbe1fea0962",
+    "references/cheatsheet.md": "ceddb25d552b12bb2062d80f7730027c9f0cbbe3f4ae3ae54f8352cbe409cdbb",
+    "references/glossary.md": "c9b5d10a98e1fd5e5f615db3df08946162dc119f6b15c68b462e288e8e752e78",
+    "references/overview.md": "6fce59afb07ff90b55f3d26f2c1483a3b807fcb05bcb5a2a821daca711553d56"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.ddia-design-review",
+  "bundle_sha256": "5c9720c7fcca40cd2b0597fa3719ec373152f30584d5f80e7c1d0488f7e58413",
+  "variant": "single",
+  "run_id": "run-20261120-021859-c7cccc",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 2,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}
